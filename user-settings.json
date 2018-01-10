@@ -2,9 +2,14 @@
 {
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai Dimmed",
-    "go.lintOnSave": "off",
-    "go.vetOnSave": "off",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "none",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "todohighlight.isEnable": true
 }
